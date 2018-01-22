@@ -1,9 +1,7 @@
 package hu.crs;
 
-import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.Arrays;
 import java.util.Deque;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -113,13 +111,13 @@ public class CollectionTest {
     @Test
     public void testDequeue() {
         Deque<Integer> deque = new LinkedList<>();
-        deque.add(4);
-        deque.add(1);
-        deque.add(7);
+        deque.push(4);
+        deque.push(1);
+        deque.push(7);
 
-        assertThat(deque.pollLast(), is(7));
-        assertThat(deque.pollLast(), is(1));
-        assertThat(deque.pollLast(), is(4));
+        assertThat(deque.pop(), is(7));
+        assertThat(deque.pop(), is(1));
+        assertThat(deque.pop(), is(4));
 
 
 
