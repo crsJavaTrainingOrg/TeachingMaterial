@@ -7,7 +7,7 @@ public class Triangle implements Shape {
     private final double a, b, c;
 
 
-    public Triangle(double a, double b, double c) throws IllegalShapeParametersException {
+    public Triangle(double a, double b, double c) {
         if (a + b < c || a + c < b || b + c < a) {
             throw new IllegalShapeParametersException();
         }

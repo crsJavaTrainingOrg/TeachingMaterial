@@ -118,8 +118,5 @@ public class CollectionTest {
         assertThat(deque.pop(), is(7));
         assertThat(deque.pop(), is(1));
         assertThat(deque.pop(), is(4));
-
-
-
     }
 }

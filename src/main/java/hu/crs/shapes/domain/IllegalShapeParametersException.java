@@ -1,4 +1,4 @@
 package hu.crs.shapes.domain;
 
-public class IllegalShapeParametersException extends Exception {
+public class IllegalShapeParametersException extends RuntimeException {
 }
