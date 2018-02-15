@@ -6,7 +6,7 @@ import hu.crs.generics.domain.Dog;
 
 import java.util.Arrays;
 
-public class ClassTest {
+public class ArrayTest {
 
     public static void main(String[] args) {
 
