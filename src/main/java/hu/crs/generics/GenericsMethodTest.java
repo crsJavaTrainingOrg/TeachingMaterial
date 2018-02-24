@@ -16,7 +16,5 @@ public class GenericsMethodTest {
         PetHotelGenericMethod.identityStatic(new Dog());
         String dog = PetHotelGenericMethod.<Dog, String>identityStatic(new Dog());
         System.out.println(dog);
-        String string = PetHotelGenericMethod.<Dog, String>identityStatic(new Dog());
-        System.out.println(string);
     }
 }
