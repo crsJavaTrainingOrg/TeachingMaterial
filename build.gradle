@@ -1,4 +1,4 @@
-group 'hu.crs.crsjavatraining.solutions'
+group 'hu.crs.crsjavatraining.teachingmaterial'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
