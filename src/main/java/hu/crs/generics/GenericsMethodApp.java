@@ -5,7 +5,7 @@ import hu.crs.generics.domain.Dog;
 import hu.crs.generics.domain.PetHotel;
 import hu.crs.generics.domain.PetHotelGenericMethod;
 
-public class GenericsMethodTest {
+public class GenericsMethodApp {
     public static void main(String[] args) {
         PetHotel<Cat> catPetHotel = new PetHotel<>();
         catPetHotel.identity(new Cat());
